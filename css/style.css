@@ -1,0 +1,122 @@
+.header {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #011222;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+}
+
+.header .header__image {
+    width: 20%;
+}
+
+.header .header__title {
+    justify-self: start;
+    align-self: center;
+}
+
+.header .header__text {
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.main {
+    width: 90%;
+    margin: 5px auto;
+    padding: 10px 2%;
+}
+
+.main .main__heading {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+    background-image: url(../images/e-learn14-e1614543540787.png);
+    background-size: cover;
+}
+
+.main .main__article {
+    margin-left: 50%;
+    padding-top: 50px;
+}
+
+.main .main__title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ccb2f7;
+}
+
+.main .main__heading--text,
+.main .main__text {
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.main .main__section {
+    padding-top: 20px;
+}
+
+.main__text--spec {
+    font-weight: bold;
+    color: aqua;
+}
+
+.main__text--mod {
+    font-weight: bold;
+    color: #aa096c;
+}
+
+.section__footer {
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.main .main__info {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.main__info .item__heading {
+    text-align: center;
+    color: #aa096c;
+    font-size: 1.2rem;
+}
+
+.main__info .item__text {
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.1rem;
+}
+
+.main .main__image {
+    width: 220px;
+    height: 150px;
+    margin: 0 10%;
+}
+
+.main .main__additional {
+    margin: 40px 0;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.main .main__video {
+    width: 80%;
+    justify-self: center;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    padding: 40px;
+    background-color: #011222;
+}
+
+.footer__info {
+    font-size: 1rem;
+    color: aliceblue;
+}
